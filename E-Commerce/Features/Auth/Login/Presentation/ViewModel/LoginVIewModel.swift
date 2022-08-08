@@ -5,7 +5,7 @@
 //  Created by Ahmed Fathy on 06/08/2022.
 //
 
-import Foundation
+import Firebase
 import RxCocoa
 import RxSwift
 
@@ -29,7 +29,6 @@ class LoginVIewModel {
     init(useCase: LoginUseCase = LoginUseCase()) {
         self.useCase = useCase
         
-        
     }
     
     //MARK: - Helper Functions
@@ -41,5 +40,19 @@ class LoginVIewModel {
     func pushTORegisterViewCOntroller(){
         self.coordinator?.pushToRegisterViewCOntroller()
     }
+    
+    
+    //MARK: - Manager Firebase
+    
+    func signIn() {
+        Task{
+            do{
+                _ = try await useCase?.signIn(email: emailBehaviour.value, password: passwordBehaviour.value)
+            }catch{
+                debugPrint(error.localizedDescription)
+            }
+        }
+    }
+    
     
 }

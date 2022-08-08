@@ -74,7 +74,7 @@ class LoginViewController: UIViewController {
     
     fileprivate func loginButtonActionSubscriber() async {
         loginButton.rx.tap.asObservable().subscribe(on: MainScheduler.instance).subscribe(onNext: { _ in
-            
+            self.viewModel.signIn()
         }).disposed(by: bag)
     }
     

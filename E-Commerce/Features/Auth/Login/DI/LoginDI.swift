@@ -13,11 +13,13 @@ extension Container {
     
     func loginDependencyContainerization(){
         
-        register(LoginRepo.self) { _ in
-            LoginRepoImplementation.init()
+        register(LoginRepo.self) {  resolver  in
+            guard let loginFirebase = resolver.resolve(LoginFirebase.self) else { fatalError() }
+            let repoImple = LoginRepoImplementation()
+            repoImple.firebase = loginFirebase
+            return repoImple
         }
         
-
         register(LoginUseCase.self) { resolver in
             guard let repo = resolver.resolve(LoginRepo.self) else { return LoginUseCase() }
             return LoginUseCase(repo: repo)

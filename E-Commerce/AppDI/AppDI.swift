@@ -14,11 +14,21 @@ extension Container  {
     
     func applicationDependencyAllFeatures(){
         
+        
+        //MARK: - Network Manager
+        
+        firebaseAuthenticationDependencyInjection()
+        
+        
+        //MARK: - Screens Container
+        
         loginDependencyContainerization()
                 
         registerDependencyContainerization()
         
         forgetDependencyContainerization()
+        
+
     }
     
     

@@ -29,6 +29,7 @@ class FirebaseAuthentication {
 
 extension FirebaseAuthentication: LoginFirebase {
     
+    
     func signIn(email: String , password: String)  async throws  ->  AuthDataResult  {
         return try await withCheckedThrowingContinuation { continuation in
             Auth.auth().signIn(withEmail: email, password: password) { result, error in

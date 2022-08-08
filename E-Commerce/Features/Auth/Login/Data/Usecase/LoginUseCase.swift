@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import Firebase
 
 class LoginUseCase {
     
@@ -16,6 +16,13 @@ class LoginUseCase {
         self.repo = repo
     }
     
+    
+    //MARK: - Sign In
+    
+    func signIn(email: String, password: String) async throws -> AuthDataResult  {
+        return try await repo.signIn(email: email , password: password)
+    }
+   
 
     
 }

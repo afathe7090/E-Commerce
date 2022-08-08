@@ -6,9 +6,9 @@
 //
 
 import Foundation
-
+import Firebase
 
 
 protocol LoginRepo {
-    
+    func signIn(email: String , password: String)  async throws  ->  AuthDataResult
 }

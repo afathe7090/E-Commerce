@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7488FBE728A1253600B9E1E2 /* FirebaseDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488FBE628A1253500B9E1E2 /* FirebaseDI.swift */; };
 		74FFD85F289EBF8F002686B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFD85E289EBF8F002686B2 /* AppDelegate.swift */; };
 		74FFD861289EBF8F002686B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFD860289EBF8F002686B2 /* SceneDelegate.swift */; };
 		74FFD868289EBF93002686B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FFD867289EBF93002686B2 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7488FBE628A1253500B9E1E2 /* FirebaseDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDI.swift; sourceTree = "<group>"; };
 		74FFD85B289EBF8F002686B2 /* E-Commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FFD85E289EBF8F002686B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74FFD860289EBF8F002686B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,11 +126,11 @@
 		74FFD85D289EBF8F002686B2 /* E-Commerce */ = {
 			isa = PBXGroup;
 			children = (
-				74FFD8F528A02B46002686B2 /* FirebaseManager */,
+				74FFD872289EBFA6002686B2 /* Core */,
 				74FFD887289EC0A3002686B2 /* AppDI */,
+				74FFD8F528A02B46002686B2 /* FirebaseManager */,
 				74FFD876289EBFE5002686B2 /* Resources */,
 				74FFD875289EBFDB002686B2 /* Extenstion */,
-				74FFD872289EBFA6002686B2 /* Core */,
 				74FFD8A8289EC260002686B2 /* Coordinator */,
 				74FFD873289EBFAB002686B2 /* Features */,
 				74FFD8F328A029A9002686B2 /* GoogleService-Info.plist */,
@@ -490,6 +492,7 @@
 			isa = PBXGroup;
 			children = (
 				74FFD8F628A02B64002686B2 /* FirebaseAuthentication.swift */,
+				7488FBE628A1253500B9E1E2 /* FirebaseDI.swift */,
 			);
 			path = FirebaseManager;
 			sourceTree = "<group>";
@@ -592,6 +595,7 @@
 				74FFD8CF289EE3A2002686B2 /* RegisterRepo.swift in Sources */,
 				74FFD8EA28A018E8002686B2 /* ForgetViewController.swift in Sources */,
 				74FFD8DE28A0177F002686B2 /* ForgetRepoImplementation.swift in Sources */,
+				7488FBE728A1253600B9E1E2 /* FirebaseDI.swift in Sources */,
 				74FFD8B4289EC406002686B2 /* LoginVIewModel.swift in Sources */,
 				74FFD8F728A02B64002686B2 /* FirebaseAuthentication.swift in Sources */,
 				74FFD8B6289ED78A002686B2 /* UIView+Extenstion.swift in Sources */,
