@@ -13,8 +13,9 @@ extension Container {
     
     func registerDependencyContainerization(){
         
-        register(RegisterRepo.self) { _ in
-            RegisterRepoImplementation.init()
+        register(RegisterRepo.self) { resolver in
+            guard let firebaaseRegister = resolver.resolve(RegisterFirebase.self ) else { fatalError() }
+            return RegisterRepoImplementation(firebase: firebaaseRegister)
         }
         
         register(RegisterUseCase.self) { resolver in

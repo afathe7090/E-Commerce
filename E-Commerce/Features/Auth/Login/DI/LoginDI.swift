@@ -15,9 +15,7 @@ extension Container {
         
         register(LoginRepo.self) {  resolver  in
             guard let loginFirebase = resolver.resolve(LoginFirebase.self) else { fatalError() }
-            let repoImple = LoginRepoImplementation()
-            repoImple.firebase = loginFirebase
-            return repoImple
+            return LoginRepoImplementation(firebase: loginFirebase)
         }
         
         register(LoginUseCase.self) { resolver in

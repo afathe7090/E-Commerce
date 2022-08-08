@@ -40,7 +40,8 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
         configureViewWithShadow()
         runTasks()
-        viewModel.TestPrint()
+       
+        
     }
 
     
@@ -73,8 +74,10 @@ class RegisterViewController: UIViewController {
     
     
     fileprivate func signUpButtonActionSubscriber() async {
-        signUpButton.rx.tap.asObservable().subscribe(on: MainScheduler.instance).subscribe(onNext: { _ in
-            
+        signUpButton.rx.tap.asObservable()
+            .subscribe(on: MainScheduler.instance).subscribe(onNext: {[weak self] _ in
+                guard let self = self else{ return }
+                self.viewModel.signUp()
         }).disposed(by: bag)
     }
     
