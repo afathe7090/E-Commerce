@@ -15,6 +15,11 @@ extension Container  {
     func applicationDependencyAllFeatures(){
         
         
+        //MARK: - Coordinator
+        
+        coordinatorDependencyContainerization()
+        
+        
         //MARK: - Network Manager
         
         firebaseAuthenticationDependencyInjection()
@@ -28,6 +33,7 @@ extension Container  {
         
         forgetDependencyContainerization()
         
+        homeDependencyContainerization()
 
     }
     

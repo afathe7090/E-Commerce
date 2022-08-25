@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7488FBE728A1253600B9E1E2 /* FirebaseDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488FBE628A1253500B9E1E2 /* FirebaseDI.swift */; };
+		74F8235B28B71B34003FC4A3 /* BaseTabBarCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8235A28B71B34003FC4A3 /* BaseTabBarCoodinator.swift */; };
+		74F8236F28B71CFC003FC4A3 /* HomeDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8235E28B71CFB003FC4A3 /* HomeDI.swift */; };
+		74F8237028B71CFC003FC4A3 /* HomeRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8236128B71CFC003FC4A3 /* HomeRepo.swift */; };
+		74F8237128B71CFC003FC4A3 /* HomeVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8236428B71CFC003FC4A3 /* HomeVIewModel.swift */; };
+		74F8237228B71CFC003FC4A3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8236628B71CFC003FC4A3 /* HomeCoordinator.swift */; };
+		74F8237328B71CFC003FC4A3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F8236828B71CFC003FC4A3 /* HomeViewController.xib */; };
+		74F8237428B71CFC003FC4A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8236928B71CFC003FC4A3 /* HomeViewController.swift */; };
+		74F8237528B71CFC003FC4A3 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8236C28B71CFC003FC4A3 /* HomeUseCase.swift */; };
+		74F8237628B71CFC003FC4A3 /* HomeRepoImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8236E28B71CFC003FC4A3 /* HomeRepoImplementation.swift */; };
+		74F8237828B7210E003FC4A3 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8237728B7210E003FC4A3 /* BaseTabBarController.swift */; };
+		74F8237A28B72182003FC4A3 /* CoordinatorDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8237928B72182003FC4A3 /* CoordinatorDI.swift */; };
 		74FFD85F289EBF8F002686B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFD85E289EBF8F002686B2 /* AppDelegate.swift */; };
 		74FFD861289EBF8F002686B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFD860289EBF8F002686B2 /* SceneDelegate.swift */; };
 		74FFD868289EBF93002686B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FFD867289EBF93002686B2 /* Assets.xcassets */; };
@@ -52,6 +63,17 @@
 
 /* Begin PBXFileReference section */
 		7488FBE628A1253500B9E1E2 /* FirebaseDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDI.swift; sourceTree = "<group>"; };
+		74F8235A28B71B34003FC4A3 /* BaseTabBarCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarCoodinator.swift; sourceTree = "<group>"; };
+		74F8235E28B71CFB003FC4A3 /* HomeDI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDI.swift; sourceTree = "<group>"; };
+		74F8236128B71CFC003FC4A3 /* HomeRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRepo.swift; sourceTree = "<group>"; };
+		74F8236428B71CFC003FC4A3 /* HomeVIewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVIewModel.swift; sourceTree = "<group>"; };
+		74F8236628B71CFC003FC4A3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		74F8236828B71CFC003FC4A3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		74F8236928B71CFC003FC4A3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		74F8236C28B71CFC003FC4A3 /* HomeUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
+		74F8236E28B71CFC003FC4A3 /* HomeRepoImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRepoImplementation.swift; sourceTree = "<group>"; };
+		74F8237728B7210E003FC4A3 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		74F8237928B72182003FC4A3 /* CoordinatorDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDI.swift; sourceTree = "<group>"; };
 		74FFD85B289EBF8F002686B2 /* E-Commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FFD85E289EBF8F002686B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74FFD860289EBF8F002686B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +129,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74F8235828B71A34003FC4A3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				74F8235928B71B10003FC4A3 /* BaseTabBar */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		74F8235928B71B10003FC4A3 /* BaseTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				74F8235A28B71B34003FC4A3 /* BaseTabBarCoodinator.swift */,
+				74F8237728B7210E003FC4A3 /* BaseTabBarController.swift */,
+			);
+			path = BaseTabBar;
+			sourceTree = "<group>";
+		};
+		74F8235C28B71CD1003FC4A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236A28B71CFC003FC4A3 /* Data */,
+				74F8235D28B71CFB003FC4A3 /* DI */,
+				74F8235F28B71CFC003FC4A3 /* Domain */,
+				74F8236228B71CFC003FC4A3 /* Presentation */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		74F8235D28B71CFB003FC4A3 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				74F8235E28B71CFB003FC4A3 /* HomeDI.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		74F8235F28B71CFC003FC4A3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236028B71CFC003FC4A3 /* Repo */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		74F8236028B71CFC003FC4A3 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236128B71CFC003FC4A3 /* HomeRepo.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		74F8236228B71CFC003FC4A3 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236328B71CFC003FC4A3 /* ViewModel */,
+				74F8236528B71CFC003FC4A3 /* Coordinator */,
+				74F8236728B71CFC003FC4A3 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		74F8236328B71CFC003FC4A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236428B71CFC003FC4A3 /* HomeVIewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74F8236528B71CFC003FC4A3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236628B71CFC003FC4A3 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		74F8236728B71CFC003FC4A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236828B71CFC003FC4A3 /* HomeViewController.xib */,
+				74F8236928B71CFC003FC4A3 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74F8236A28B71CFC003FC4A3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236B28B71CFC003FC4A3 /* Usecase */,
+				74F8236D28B71CFC003FC4A3 /* Repo */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		74F8236B28B71CFC003FC4A3 /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236C28B71CFC003FC4A3 /* HomeUseCase.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		74F8236D28B71CFC003FC4A3 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				74F8236E28B71CFC003FC4A3 /* HomeRepoImplementation.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
 		74FFD852289EBF8F002686B2 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +286,8 @@
 		74FFD873289EBFAB002686B2 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				74F8235C28B71CD1003FC4A3 /* Home */,
+				74F8235828B71A34003FC4A3 /* Base */,
 				74FFD877289EC009002686B2 /* Auth */,
 			);
 			path = Features;
@@ -324,6 +460,7 @@
 			isa = PBXGroup;
 			children = (
 				74FFD8A9289EC260002686B2 /* Coordinator.swift */,
+				74F8237928B72182003FC4A3 /* CoordinatorDI.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -573,6 +710,7 @@
 				74FFD86B289EBF93002686B2 /* LaunchScreen.storyboard in Resources */,
 				74FFD868289EBF93002686B2 /* Assets.xcassets in Resources */,
 				74FFD8B2289EC3E9002686B2 /* LoginViewController.xib in Resources */,
+				74F8237328B71CFC003FC4A3 /* HomeViewController.xib in Resources */,
 				74FFD8F428A029A9002686B2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,7 +722,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F8237228B71CFC003FC4A3 /* HomeCoordinator.swift in Sources */,
 				74FFD8AA289EC260002686B2 /* Coordinator.swift in Sources */,
+				74F8237828B7210E003FC4A3 /* BaseTabBarController.swift in Sources */,
 				74FFD8CE289EE3A2002686B2 /* RegisterRepoImplementation.swift in Sources */,
 				74FFD8A5289EC1EB002686B2 /* AppDI.swift in Sources */,
 				74FFD8CD289EE3A2002686B2 /* RegisterUseCase.swift in Sources */,
@@ -596,23 +736,31 @@
 				74FFD8EA28A018E8002686B2 /* ForgetViewController.swift in Sources */,
 				74FFD8DE28A0177F002686B2 /* ForgetRepoImplementation.swift in Sources */,
 				7488FBE728A1253600B9E1E2 /* FirebaseDI.swift in Sources */,
+				74F8237A28B72182003FC4A3 /* CoordinatorDI.swift in Sources */,
+				74F8236F28B71CFC003FC4A3 /* HomeDI.swift in Sources */,
+				74F8235B28B71B34003FC4A3 /* BaseTabBarCoodinator.swift in Sources */,
 				74FFD8B4289EC406002686B2 /* LoginVIewModel.swift in Sources */,
 				74FFD8F728A02B64002686B2 /* FirebaseAuthentication.swift in Sources */,
 				74FFD8B6289ED78A002686B2 /* UIView+Extenstion.swift in Sources */,
 				74FFD88E289EC0FA002686B2 /* LoginRepoImplementation.swift in Sources */,
 				74FFD861289EBF8F002686B2 /* SceneDelegate.swift in Sources */,
+				74F8237128B71CFC003FC4A3 /* HomeVIewModel.swift in Sources */,
 				74FFD889289EC0C7002686B2 /* LoginRepo.swift in Sources */,
 				74FFD8AC289EC2A7002686B2 /* LoginCoordinator.swift in Sources */,
 				74FFD890289EC11F002686B2 /* LoginUseCase.swift in Sources */,
 				74FFD8CC289EE3A2002686B2 /* RegisterViewController.swift in Sources */,
 				74FFD8CA289EE3A2002686B2 /* RegisterCoordinator.swift in Sources */,
 				74FFD8A7289EC218002686B2 /* LoginDI.swift in Sources */,
+				74F8237028B71CFC003FC4A3 /* HomeRepo.swift in Sources */,
+				74F8237628B71CFC003FC4A3 /* HomeRepoImplementation.swift in Sources */,
+				74F8237428B71CFC003FC4A3 /* HomeViewController.swift in Sources */,
 				74FFD8D0289EE3A2002686B2 /* RegisterDI.swift in Sources */,
 				74FFD8ED28A0190C002686B2 /* ForgetViewModel.swift in Sources */,
 				74FFD8DA28A0173C002686B2 /* ForgetRepo.swift in Sources */,
 				74FFD8E728A0189E002686B2 /* ForgetCoordinator.swift in Sources */,
 				74FFD8B1289EC3E9002686B2 /* LoginViewController.swift in Sources */,
 				74FFD8E028A017B7002686B2 /* ForgetUseCase.swift in Sources */,
+				74F8237528B71CFC003FC4A3 /* HomeUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

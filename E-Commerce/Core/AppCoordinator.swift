@@ -22,9 +22,13 @@ class AppCoordinator: BaseCoordinatorImplementation {
     
     override func startCoordinator() {
         window.rootViewController = self.navigationController
-        let loginCoordinator = LoginCoordinator(rootNavigation: navigationController)
-        self.childCoordinators.append(loginCoordinator)
-        loginCoordinator.startCoordinator()
+//        let loginCoordinator = LoginCoordinator(rootNavigation: navigationController)
+//        self.childCoordinators.append(loginCoordinator)
+//        loginCoordinator.startCoordinator()
+        
+        let baseCoordinator = BaseTabBarCoordinator(navigationController: navigationController, isRoot: true)
+        self.childCoordinators.append(baseCoordinator)
+        baseCoordinator.startCoordinator()
         window.makeKeyAndVisible()
     }
     

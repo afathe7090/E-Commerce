@@ -25,6 +25,15 @@ class LoginCoordinator: BaseCoordinatorImplementation {
     }
     
     
+    
+    func pushToBaseScenesController(){
+        let baseTabBar = BaseTabBarCoordinator(navigationController: navigationController)
+        childCoordinators.append(baseTabBar)
+        baseTabBar.startCoordinator()
+    }
+    
+    
+    
     func pushToRegisterViewCOntroller(){
         let registerCoordinator = RegisterCoordinator(rootNavigation: navigationController)
         registerCoordinator.parentCoordinator = self

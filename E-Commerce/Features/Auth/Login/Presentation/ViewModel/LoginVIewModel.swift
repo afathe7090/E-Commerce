@@ -48,6 +48,9 @@ class LoginVIewModel {
         Task{
             do{
                 _ = try await useCase?.signIn(email: emailBehaviour.value, password: passwordBehaviour.value)
+                DispatchQueue.main.async {
+                    self.coordinator?.pushToBaseScenesController()
+                }
             }catch{
                 debugPrint(error.localizedDescription)
             }
